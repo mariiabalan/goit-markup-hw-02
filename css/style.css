@@ -92,13 +92,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
-background-color: #404BBF;
-background: #4d5ae5;
+background-color: #4d5ae5;
 }
 
-.hero-order-btn:hover {
-    background-color: #404BBF;
-}
+.hero-order-btn:hover,
 .hero-order-btn:focus {
     background-color: #404BBF;
 }
@@ -117,7 +114,11 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.team-list {
+
+.team {
+    background-color: #F4F4FD
+}
+.tteam-item {
     background-color: #FFFFFF;
 }
 .team-title {
@@ -192,7 +193,6 @@ letter-spacing: 0.02em;
 
 .footer {
     background: #2e2f42;
-    width: 1440px;
 }
 
 .footer-text {
