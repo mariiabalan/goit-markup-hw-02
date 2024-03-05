@@ -21,7 +21,8 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.header.logo:focus{
+.header.logo:focus,
+{
     color: #404bbf;
 }
 .header-logo-studio {
@@ -43,10 +44,8 @@ color: #2e2f42;
     color: #2e2f42;
 }
 
-.header-menu-link:hover{
-    color: #404bbf;
-}
-..header-menu-link:focus{
+.header-menu-link:hover,
+.header-menu-link:focus{
     color:  #404bbf;
 }
 .header-address {
@@ -118,7 +117,7 @@ color: #2e2f42;
 .team {
     background-color: #F4F4FD
 }
-.tteam-item {
+.team-item {
     background-color: #FFFFFF;
 }
 .team-title {
